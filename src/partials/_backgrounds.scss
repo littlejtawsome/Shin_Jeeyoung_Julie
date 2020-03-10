@@ -1,0 +1,49 @@
+.background{
+     color: $background;
+     margin: 20px 0;
+     width: 100%;
+     display: table;
+     .container {
+         display: table-cell;
+         vertical-align: bottom;
+         padding-bottom: 20px;
+
+         hi {
+             color: $yellow;
+             font-family: $font-heading;
+             font-size: 5rem;
+             line-height: 105%;
+             margin-bottom: 0;
+             padding: 0 10%;
+         }
+         h3 {
+             padding: 0 10%;
+             margin-top: 0;
+         }
+     }
+    }
+
+
+.intro {
+        @include backImage('../images/coffee1.jpg', 300px);
+    
+         h1 {
+             text-align: center;
+             color:$yellow;
+             text-decoration: none;
+             float: left;
+             margin:0;
+             
+         }
+    }
+
+.contact_container {
+      @include backImage('../images/cups.jpg',400px);
+
+      h2 {
+          text-align:center;
+          color:$brown;
+          text-decoration: none;
+          margin:0;
+      }
+}

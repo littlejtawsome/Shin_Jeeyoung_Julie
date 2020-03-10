@@ -1,0 +1,30 @@
+
+$color-btn-text: $darkblue;
+$color-btn-default: $text-color;
+$color-btn-no: $red;
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: $font-heading;
+    user-select: none;
+    color: $background;
+}
+.btn-default {
+    @extend .btn; //====================@extend=========================
+    background-color: $color-btn-default;
+}
+.btn-no {
+    @extend .btn;
+    background-color: $color-btn-no;
+}
+button, button a {
+    align-content: center;
+    @extend .btn;
+    background-color: $color-btn-default;
+}

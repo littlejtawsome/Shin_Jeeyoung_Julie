@@ -1,0 +1,57 @@
+body {
+   h1 {
+    clear: both;
+    border-top: 1x solid $grey;
+    padding:10px;
+    background-color:  #786956;
+    text-align: center;
+    margin-top:0;
+    margin-left: 0;
+    padding-bottom: 0 0 10px 0;
+    color: $background;
+   }
+   h2 {
+      @include break(500px) {
+         font-size:1.5em; 
+      }
+      @include break (760px) {
+         font-size:1.8em;
+      }
+   }
+}
+.contactInfo1 {
+         width:100%;
+         padding:0;
+         text-decoration: none;
+}
+
+.contactInfo2 {
+        width: 100%;
+        padding:0;
+        height: auto;
+        text-decoration: none;
+}
+ .footer, .page_footer ,footer a{
+    clear: both;
+    border-top: 1x solid $grey;
+    padding:10px;
+    background-color:  #786956;
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 10px 0 10px 0;
+    color: $background;
+}
+ 
+
+.container3 {
+    footer {
+    clear: both;
+    border-top: 1x solid $grey;
+    padding:10px;
+    background-color:  #786956;
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 10px 0 10px 0;
+    color: $background;
+}
+}
